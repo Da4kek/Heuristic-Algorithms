@@ -19,7 +19,6 @@ where,
 2. Take route[v1] to route[v2] and add them in reverse order to new_route.
 3. Take route[v2] to route[v3] and add them in order to new_route.
 
-![2-opt](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2-opt_wiki.svg/800px-2-opt_wiki.svg.png)
 
 **Visualization:**
 ![visualization](https://upload.wikimedia.org/wikipedia/commons/f/f6/2-opt_Swap_Path_Visualization.gif)
