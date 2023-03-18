@@ -16,4 +16,13 @@ components:
 ```
 Different ecological habitats have different challenges and requirements for survival. According to the **evolutionary theory**, in any ecological niche, the different organisms’ traits will be variant due to random mutations in DNA and copying mistakes in its duplication. Due to this variation in traits, there will be differential advantages of survival for organisms having more suitable traits for survival, i.e the nature is implicitly applying a pressure that selects for the fit individuals. Because the most fit organisms will be more probable to survive, they will pass their ‘fit’ genes to their offsprings, which will be again more probable to survive.
 
+**Evolution can be thought of as an algorithm optimizing for fitness.** 
 
+The main classes of Evolutionary Algorithms are:
+1. Genetic Algorithms
+2. Evolution Strategies
+3. Multi-Objective Evolutionary Algorithms
+4. Differential evolution
+5. Estimation of Distribution Algorithms
+6. Memetic Algorithms
+*Special purpose EAs such as genetic programming and learning classifier systems are also widely used.*
