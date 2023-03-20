@@ -1,5 +1,8 @@
 # Heuristic-Algorithms
+
 ---
+*Before you go through the readme, do check the [wiki](https://github.com/The-DarK-os/Heuristic-Algorithms/wiki).I've put a lot of efforts in there.*
+
 > A heuristic algorithm is a type of algorithm that uses problem solving, learning, and self-correcting capabilities to find the best possible solution to a problem. Heuristic algorithms are used in a variety of fields, including computer science, engineering, and mathematics. Heuristic algorithms are often used technique for a variety of reasons:
 
 * Problems that are too complex to solve using traditional algorithms.
