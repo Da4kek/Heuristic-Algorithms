@@ -3,11 +3,9 @@
 > Genetic algorithms are a search heuristic that is inspired by the process of natural selection. This technique belongs to the larger class of evolutionary algorithms (EA). Genetic algorithms are commonly used to generate high-quality solutions to optimization and search problems by relying on bio-inspired operators such as mutation, crossover, and selection.
 
 **Types of Genetic Algorithms:**
-* **Steady State Genetic Algorithm:** In this algorithm, the algorithm replaces the worst individual in the population with the best individual from the offspring. This algorithm is also known as the elitist algorithm.
-* **Generational Genetic Algorithm:** In this algorithm, the algorithm replaces the entire population with the offspring. This algorithm is also known as the generational algorithm.
-* **Steady State Generational Genetic Algorithm:** In this algorithm, the algorithm replaces the worst individual in the population with the best individual from the offspring. This algorithm is also known as the elitist generational algorithm.
-* **Mu + Lambda Genetic Algorithm:** In this algorithm, the algorithm replaces the worst individuals in the population with the best individuals from the offspring. This algorithm is also known as the elitist algorithm.
-* **Mu Lambda Genetic Algorithm:** In this algorithm, the algorithm replaces the entire population with the offspring. This algorithm is also known as the generational algorithm.
+* **Generational GA**: if the population size is P, there are P offspring that are created and mutated. The replacement strategy replaces all the parents with their offspring. This results in no overlap between the current and new population.
+* **Steady-state GA**: works by randomly selecting two parents, creating one offspring, and replacing the worst fit individual in the population with the offspring. It makes only one function evaluation per child on each cycle.
+* **Mu + GA**: works by randomly selecting two parents with binary tournament selection, creating an offspring and adding the offspring to a child population until the child population size is equal to the original population size.
 ---
 ## Terms:
 * **Population:** A population is a set of solutions.
