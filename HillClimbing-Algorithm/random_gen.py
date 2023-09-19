@@ -1,6 +1,5 @@
 import random
 def random_solution(tsp):
-    '''Generates a random solution for the TSP problem.'''
     cities = list(range(len(tsp)))
     solution = []
 
