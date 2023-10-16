@@ -19,9 +19,13 @@ An ephemeral constant is a terminal encapsulating a value that is generated from
 
 I will be using DEAP (Distributed Evolutionary Algorithms in Python) to implement GP. DEAP is a novel evolutionary computation framework for rapid prototyping and testing of ideas. It seeks to make algorithms explicit and data structures transparent. It works in perfect harmony with parallelisation mechanism such as multiprocessing and SCOOP.
 
+Random numerical constants (RNCs) can easily be implemented in GEP. For that an additional domain DC is introduced in GEP genes. 
+
 Problems that will be covered:
 * Symbolic regression 
 * Even-parity problem
 * Artificial Ant
 * Spambase problem
 * TSP problem
+
+> The most significant difference between GEP (Gene expression programming) and GP is that GEP adopts a linear fixed-length representation of computer programs, which can later be translated into an expression tree. By contrast, GP typically uses a variable-size syntax tree representation directly.
